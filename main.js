@@ -39,11 +39,11 @@ for (const image of images) {
     const btnClass = btn.getAttribute('class');
     if (btnClass === 'dark') {
       btn.setAttribute('class','light');
-      btn.textContent = 'Lighten';
+      btn.textContent = 'voltar';
       overlay.style.backgroundColor = 'rgba(0,0,0,0.5)';
     } else {
       btn.setAttribute('class','dark');
-      btn.textContent = 'Darken';
+      btn.textContent = 'Escurecer';
       overlay.style.backgroundColor = 'rgba(0,0,0,0)';
     }
   });
